@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Request a KARGAR urban cleaning, maintenance, waste removal or drainage service in Karachi.">
+    <title>Request a Service | KARGAR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+    <div class="container top-bar-content">
+        <div><span>📞 03318160710</span><span>✉️ kargar.pk@gmail.com</span></div>
+        <div><span>Serving communities across Karachi</span></div>
+    </div>
+</div>
+
+<header class="navbar">
+    <div class="container nav-container">
+        <a href="index.html" class="logo"><img src="images/logo.svg" alt="KARGAR Urban Services"></a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="tracking.html">Track Request</a>
+            <a href="contact.html">Contact</a>
+            <a href="booking.html" class="nav-button active">Request a Service</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+<section class="page-hero">
+    <div class="container">
+        <span class="badge">REQUEST A SERVICE</span>
+        <h1>Tell us what needs to be done.</h1>
+        <p>Submit your requirement and receive a unique request ID for tracking.</p>
+    </div>
+</section>
+
+<section class="section section-light">
+    <div class="container form-layout">
+        <div class="form-card">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">SERVICE REQUEST</span>
+                    <h2>Request practical help</h2>
+                </div>
+            </div>
+
+            <form id="bookingForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="name">Full name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone number *</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="03XXXXXXXXX">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option>Street & Alley Cleaning</option>
+                            <option>Road & Pathway Maintenance</option>
+                            <option>Waste & Debris Removal</option>
+                            <option>Sewerage & Drainage Support</option>
+                            <option>Garden & Green Area Cleaning</option>
+                            <option>General Maintenance</option>
+                        </select>
+                    </div>
+                    <div class="form-group full">
+                        <label for="location">Location / Area *</label>
+                        <input type="text" id="location" name="location" required placeholder="Area, street or landmark in Karachi">
+                    </div>
+                    <div class="form-group full">
+                        <label for="details">Describe the work *</label>
+                        <textarea id="details" name="details" required rows="6" placeholder="Briefly explain what needs to be cleaned, repaired, removed or maintained."></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Request →</button>
+            </form>
+
+            <div id="bookingSuccess" class="success-box hidden"></div>
+        </div>
+
+        <aside class="info-card">
+            <span class="eyebrow">WHAT HAPPENS NEXT</span>
+            <h3>Simple from request to solution.</h3>
+            <ol class="number-list">
+                <li><span>01</span><div><strong>Request submitted</strong><p>Your requirement is recorded.</p></div></li>
+                <li><span>02</span><div><strong>Request reviewed</strong><p>We review the service details.</p></div></li>
+                <li><span>03</span><div><strong>Progress tracked</strong><p>Use your request ID to check progress.</p></div></li>
+            </ol>
+            <a href="tracking.html" class="text-link">Already have a request ID? Track it →</a>
+        </aside>
+    </div>
+</section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <a href="index.html" class="footer-logo"><img src="images/logo.svg" alt="KARGAR Logo"></a>
+                <p>KARGAR provides practical urban and community services for cleaner, safer and better-maintained neighborhoods.</p>
+                <div class="social-links">
+                      <!-- Instagram -->
+                    <a href="https://www.instagram.com/kargar_pk"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="KARGAR on Instagram"
+                       title="Instagram">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                        </svg>
+                    </a>
+
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/share/1bEus6Et1P/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="KARGAR on Facebook"
+                       title="Facebook">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 8h3V4h-3c-3.3 0-5 1.9-5 5v3H6v4h3v4h4v-4h3.5l.5-4H13V9c0-.7.3-1 1-1z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div><h3>Quick Links</h3><ul>
+                <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li><li><a href="tracking.html">Track Request</a></li><li><a href="contact.html">Contact</a></li>
+            </ul></div>
+            <div><h3>Services</h3><ul>
+                <li><a href="services.html">Street Cleaning</a></li><li><a href="services.html">Road Maintenance</a></li>
+                <li><a href="services.html">Waste Removal</a></li><li><a href="services.html">Drainage Support</a></li><li><a href="services.html">Garden Cleaning</a></li>
+            </ul></div>
+            <div><h3>Contact</h3><ul><li>📞 03318160710</li><li>✉️ kargar.pk@gmail.com</li><li>📍 Karachi, Pakistan</li></ul></div>
+        </div>
+        <div class="copyright"><p>© 2026 KARGAR. All Rights Reserved.</p><p>Your Neighborhood. Our Responsibility.</p></div>
+    </div>
+</footer>
+
+<a href="https://wa.me/923318160710"
+   class="whatsapp-button"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Contact KARGAR on WhatsApp"
+   title="Chat with KARGAR on WhatsApp">
+
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path
+            d="M16 3.2A12.8 12.8 0 0 0 5.1 22.7L3.2 28.8l6.3-1.9A12.8 12.8 0 1 0 16 3.2Z"
+            fill="none"
+            stroke="white"
+            stroke-width="2.2"
+            stroke-linejoin="round"
+        />
+
+        <path
+            d="M11.3 9.9c.3-.4.7-.5 1.1-.5h.8c.3 0 .6.2.7.5l1 2.4c.1.3.1.6-.1.8l-.8 1
+            c-.2.2-.2.5 0 .7.8 1.3 1.9 2.4 3.2 3.2.2.2.5.1.7 0l1-.8
+            c.2-.2.5-.2.8-.1l2.4 1c.3.1.5.4.5.7v.8c0 .4-.2.8-.5 1.1
+            -.5.5-1.3.8-2.1.8-1.8 0-4.1-1.1-6.2-3.2
+            -2.1-2.1-3.2-4.4-3.2-6.2 0-.8.3-1.6.8-2.1Z"
+            fill="white"
+        />
+    </svg>
+
+</a>
+<button id="backTop" class="back-top" aria-label="Back to top">↑</button>
+<div id="toast" class="toast"></div>
+<script src="js/script.js"></script>
+</body>
+</html>
